@@ -1,0 +1,12 @@
+#include <iostream>
+
+int main(int argc, const char * argv[]) { // comand line arguments
+    
+   char c = 65; //ASCII 'A'
+    
+    std::cout << 10 << c << "\nGood Evening SMC\n";
+    
+    std:: cout << "Enter any key to exit\n";
+    
+    return 0;
+}
