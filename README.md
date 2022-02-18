@@ -1,2 +1,2 @@
-# Object-Oriente-Programming
+# Object-Oriented-Programming
 Various C++ Projects
