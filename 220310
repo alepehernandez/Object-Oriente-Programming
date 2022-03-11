@@ -1,0 +1,4 @@
+#include <string>
+
+enum Days {MON=1, WED=3, FRI=5};
+enum class Workweek { 
