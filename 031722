@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+
+char carr[] = { 'a' , 'b' , 'c'};
+
+  std::string s = argv[1];
+  std::cout << s;
+  for (int i=0; i< s.soze()); i++)
+    if (s[i] == ''b')
+    std::cout << "s[" << i << ] = " << s[i] << "\n";
+    
+  
+  
