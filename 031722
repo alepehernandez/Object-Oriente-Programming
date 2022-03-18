@@ -9,5 +9,6 @@ char carr[] = { 'a' , 'b' , 'c'};
     if (s[i] == ''b')
     std::cout << "s[" << i << ] = " << s[i] << "\n";
     
+    
   
   
