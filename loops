@@ -1,0 +1,10 @@
+while (outer <5){
+  while (inner >=0{
+  std:: cout << outer +inner
+  << ((inner == 0)? "" : ",");
+    inner --;
+    }
+    std:: cout << "\n";
+    outer ++; inner=5;
+    }
+    
