@@ -8,3 +8,10 @@ while (outer <5){
     outer ++; inner=5;
     }
     
+int main ( int argc, char* argv[])
+int outer  =0;
+while (outer <5)
+{
+  for (int inner =5; inner >=0;: inner --)
+    std::cout << outer+inner
+    << ((inner==0)?
