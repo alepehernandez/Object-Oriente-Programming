@@ -1,29 +1,25 @@
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-
+int main(int argc, const char * argv[])
 {
   double balance = 0.0;
-  double transaction;
-  
+  double transaction=1.0;
   //Get balance from the user
-  
   std::cout << "Enter in a nonzero balance:";
   std::cin >> balance;;
   
   std::cout << "Enter transactions (+deposit or -witdraw), use 0 to end list:\n";
-  std::cin >> transaction;
-  
-  if( transaction !=0)
-  balance += transaction;
-  
+    
+   while(transaction)
+   {
+       std::cin >> transaction;
+       balance += transaction;
+   }
+    
   std:: cout << "your current balance is:" << balance;  // 1325
   
   std::cout << "\n Enter any alpanumeric to exit: ";
   char pauser; std:: cin >> pauser;
-  
+  return 0;
+}
 
-    return 0;
-    
-}
-}
