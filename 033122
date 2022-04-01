@@ -1,0 +1,7 @@
+#include
+int main (int argc, char* argv[])
+{
+std::ofstream ofs("aFile.txt", std::ios::app);
+
+ofs<< 
+}
