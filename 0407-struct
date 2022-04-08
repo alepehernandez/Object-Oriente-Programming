@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+struct Animal
+{
+std:::string name;
+int age;
+};
+
+int main ( int argc, char* argv[])
+{
+
+  Animal cat, dog
+  cat.name ="MeowMeow"; cat.age+3;
+  dog.name =" ChowChow"; dog.age=7;
+  cat.print(); dog.print();
+  
+  
+  
+}  
