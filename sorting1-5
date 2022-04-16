@@ -1,0 +1,28 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <functional>
+
+
+int main(int argc, const char * argv[]) {
+    // insert code here...
+    std::vector <int> values = { 3,5,1,4,2};
+    std::sort(values.begin(), values.end(), [](int a, int b)
+              
+              
+    {
+        if ( a == 1) // sort 1 to the end of the list
+            return false;
+        if (b ==1) // sort 2 to the start of the list
+            return true;
+        
+        return a < b;
+    });
+    
+    
+    for (int value :values)
+        std::cout << value << std::endl;
+    std::cin.get();
+   
+    return 0;
+}
