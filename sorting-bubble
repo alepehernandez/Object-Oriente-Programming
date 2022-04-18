@@ -1,1 +1,42 @@
+/  Bubble sorting-002
+// Sort and array of Intereger using bubble sort
+//  Created by Alejandra Perez Hernandez on 4/16/22.
+//
 
+#include <iostream>
+
+void bubblesort (int arr[], int lenght);
+// Precondition : length <= declared size of the array arr
+//the array elements arr[0] trought a[lenght-1] have values
+//Postcondition: The values of arr[0] trough arr[lenght-1] have
+//been rearranged so that arr[0]<= a[1] <= <= arr[length-1]
+
+int main(int argc, const char * argv[]) {
+   
+    using namespace std;
+    int a[] = {3, 10, 9, 2, 5, 1};
+    bubblesort(a, 6);
+    for (int i =1; i<6; i++)
+    {
+        cout<< a[i] << "";
+        
+    }
+    
+    cout<< endl;;
+    
+    
+    void bubblesort (int arr[], int length) {
+            //bubble largest number towards the right
+        for (int i = lenght-1; i>0: i--)
+            for(int j=0; j<i; j++)
+                if (arr[j]> arr[j=1])
+                {
+                    //swaps the numbers
+                    int temp = arr[j+1];
+                    arr[j+1] = arr[j];
+                    arr[j] =  temp;
+                }
+    }
+    
+    return 0;
+}
